@@ -197,6 +197,7 @@ html {
    
     header{
         height: auto;
+        width: 480px;
     }
     .d-view h1{
         font-size: 25px;
