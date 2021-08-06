@@ -193,8 +193,7 @@ html {
  @media  (max-width: 480px){
    
     header{
-        height: auto;
-        width: 480px;
+        width: auto;
     }
     .d-view h1{
         font-size: 25px;
@@ -217,8 +216,8 @@ html {
         
     }
     .design img{
-        width: 100px;
-        height: 100px;
+        width: 250px;
+        height: 250px;
     }
     .text-design{
        padding-top: 100px;
