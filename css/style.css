@@ -205,10 +205,27 @@ html {
     }
     #about{
         margin-top: 100px;
-        width: 470%;
+        width: 470px;
     }
     .sobreMi{
         flex-direction: column;
+    }
+    .design{
+        padding-top: 40px;
+        padding-bottom: 10px;
+        width: 450px;
+        height:450px;
+    }
+    .text-design{
+       padding-top: 100px;
+       padding-bottom: 10px;
+       width: 450px;
+       height:450px;
+       text-align: center;
+       font-family: 'Style Script', cursive;
+       font-weight: 900;
+       font-size: xx-large;
+        
     }
     .text-design p{
        margin-left: 1px;
