@@ -59,11 +59,6 @@ html {
  .letra{
     color: red;
  }
- .logo img{
-     width: 40px;
-     height: 40px;
-     margin: -10px;
- }
  .navbar-toggler{
      background-color: black;
  }
@@ -215,9 +210,9 @@ html {
         padding-bottom: 10px;   
         
     }
-    .design img{
-        width: 250px;
-        height: 250px;
+   .design img{
+        width: 450px;
+        height: 450px;
     }
     .text-design{
        padding-top: 100px;
