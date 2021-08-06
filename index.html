@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--- Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Style+Script&display=swap"
+        rel="stylesheet">
+    <!--Animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!--ICONS-->
+    <script src="https://kit.fontawesome.com/1489097e74.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Porfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <nav id="menu" class="navbar navbar-expand-lg navbar-dark  bg-primary fixed-top bg-opacity-10">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-5" href="#">
+                    <div class="logo">
+                        <img src="./img/logo.jpg" alt="logo">
+                    </div>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ms-5 ">
+                            <a class="nav-link item" aria-current="page" href="#about"><span class="item">Sobre
+                                    Mi</span>
+                            </a>
+                        </li>
+                        <li class="nav-item ms-5 ">
+                            <a class="nav-link item" href="#habilidad"><span class="item">Habilidades</span></a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="nav-link item" href="#"><span class="item">Proyectos</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="titulo animate__animated animate__backInRight">
+            <div class="d-view">
+                <h1>!<span class="letra">H</span>ola mundo mi nombre es <span class="letra">L</span>uis!</h1>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="sobreMi">
+            <div class="design">
+                <img src="./img/Web_design_SVG.svg" alt="sobreMi">
+            </div>
+            <div class="text-design">
+                <h1>Sobre mi</h1>
+                <p>Mi nombre es Luis Zelarrayán, tengo 42 años y soy Analista Programador y Analista de Sistemas.
+                    Estudie un año de Técnicas Digitales. Trabaje de Administrativo durante los últimos 15 años.
+                    Entonces comenze a estudiar desarrollo web y me di cuenta lo que quería para mi vida. Es un mundo
+                    que me fascina y que cada día sigo descubriendo cosas que me maravillan.
+                    Si bien es cierto estoy dando mis primeros pasos en el mundo IT, ya cuento con una certificación de
+                    Full Stack con el aval de la universidad Nacional de Córdoba, pero cada paso que doy lo hago con
+                    firmeza y con mucha pasión.
+                    Me encanta lo que hago.
+
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="habilidad">
+
+        <div class="habilidades">
+
+            <div>
+                <h1>Habilidades</h1>
+            </div>
+            <br>
+
+            <div class="img_item1">
+                <div class="item1"><img src="./img/habilidad/html.png" alt="html"></div>
+                <div class="item1"><img src="./img/habilidad/css.png" alt="css"></div>
+                <div class="item1"><img src="./img/habilidad/js.png" alt="js"></div>
+                <div class="item1"><img src="./img/habilidad/responsive.png" alt=""></div>
+            </div>
+
+            <div class="img_item2">
+                <div class="item2"><img src="./img/habilidad/bootstrap.png" alt="boostrap"></div>
+                <div class="item2"><img src="./img/habilidad/react.png" alt="react"></div>
+                <div class="item2"><img src="./img/habilidad/php.png" alt="php"></div>
+                <div class="item2"><img src="./img/habilidad/laravel.png" alt=""></div>
+            </div>
+
+            <div class="img_item3">
+                <div class="item3"><img src="./img/habilidad/android.png" alt="android"></div>
+                <div class="item3"><img src="./img/habilidad/git.png" alt="git"></div>
+                <div class="item3"><img src="./img/habilidad/sass.png" alt="sass"></div>
+                <div class="item3"><img src="./img/habilidad/sql.png" alt=""></div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        $(window).scroll(function () {
+            if ($("#menu").offset().top > 50) {
+                $("#menu").removeClass("bg-opacity-10");
+            } else {
+                $("#menu").addClass("bg-opacity-10");
+            }
+        });
+    </script>
+
+</body>
+
+</html>
