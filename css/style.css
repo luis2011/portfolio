@@ -209,16 +209,18 @@ html {
     }
     .sobreMi{
         flex-direction: column;
-        width: 450px;
-        height:450px;
+        justify-content: center;
+        width: 400px;
+        height:400px;
     }
     .design{
         padding-top: 40px;
         padding-bottom: 10px;   
+        
     }
     .design img{
-        width: 450px;
-        height: auto;
+        width: 300px;
+        height: 300px;
     }
     .text-design{
        padding-top: 100px;
