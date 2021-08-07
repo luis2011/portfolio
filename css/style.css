@@ -64,6 +64,10 @@ html {
      background-color: black;
  }
 
+
+
+
+
  /*Seccion sobre mi*/
  .sobreMi{
      height: 620px;
@@ -84,8 +88,8 @@ html {
     width: 480px;
     height:480px;
     text-align: center;
-    font-family: 'Style Script', cursive;
-    font-weight: 900;
+    /*font-family: 'Style Script', cursive;
+    font-weight: 900;*/
     font-size: xx-large;
      
  }
@@ -184,6 +188,69 @@ html {
     margin-top: 300px;
 }
 
+/*Section proyectos*/
+.misProyectos{
+    height: 620px;
+    width: 100%;
+    background-color: white;
+}
+.misProyectos h1{
+    padding-top:60px;
+    font-family: 'Style Script';
+    font-size:xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+.detalleProyectos{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.img_proyectos img{
+    width: 400px;
+    height:250px;
+    border: solid 1px;
+    cursor: pointer;
+}
+.img_proyectos img:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+    transition: 1s;
+}
+.repositorio{
+    margin-top: 5px;
+   display: flex;
+   justify-content: center;
+}
+
+.fa-github{
+    color: black;  
+}
+
+.btn-whatsapp {
+    display:block;
+    width:70px;
+    height:70px;
+    color:green;
+    position: fixed;
+    right:40px;
+    bottom:40px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+
+/*Section footer*/
+footer{
+    margin-top: 13px;
+    height: 150px;  
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
 
 
  @media  (max-width: 480px){
@@ -279,6 +346,25 @@ html {
         width: 75px;
         height: 75px;
         margin: 10px;
+    }
+
+    .detalleProyectos{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        align-items: center;
+    }
+    .img_proyectos img{
+        margin-top: 10px;
+        width: 300px;
+        height: auto;
+    }
+    footer{
+        margin-top:250px;
+        flex-direction: column;
+        height: 250px;  
+        text-align: center;
     }
     
 
