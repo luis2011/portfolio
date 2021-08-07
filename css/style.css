@@ -224,7 +224,7 @@ html {
    justify-content: center;
 }
 
-.fa-github{
+.fa-github , .fa-invision{
     color: black;  
 }
 
@@ -249,7 +249,18 @@ footer{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    
+    color: white; 
+}
+.footer_div{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.iconRedes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 
@@ -365,6 +376,13 @@ footer{
         flex-direction: column;
         height: 250px;  
         text-align: center;
+    }
+    .iconRedes{
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .iconRedes a{
+        margin-left: 10px;
     }
     
 
